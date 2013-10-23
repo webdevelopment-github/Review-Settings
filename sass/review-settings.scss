@@ -1,0 +1,134 @@
+/* ####################################################
+NOTE
+scss file for review
+###################################################
+*/
+
+$gridFluidColumnWidth: 6.38298%;
+$gridFluidGutterWidth: 2.12766%;
+
+@mixin makeFluidRow() {
+  width: 100%;
+  @include clearfix();
+}
+@mixin makeFluidColumn($columns: 1, $offset: 0, $marginRate: 1) {
+  float: left;
+  margin-left: (($gridFluidColumnWidth * $offset) + ($gridFluidGutterWidth * ($offset - 1)) + ($gridFluidGutterWidth * 2)) * $marginRate;
+  width: ($gridFluidColumnWidth * $columns) + ($gridFluidGutterWidth * ($columns - 1));
+  
+  &:first-child {
+        margin-left: 0;
+  }
+}
+
+.ya-article {
+    @include makeFluidRow();
+    .ya-main-section {
+        @include makeFluidColumn(6);
+		@media (max-width: 979px) {
+			 @include makeFluidColumn(9);
+		}
+		@media (max-width: 767px) {
+			@include makeFluidColumn(12, 0, 0);
+		}
+    }
+    .ya-left-sidebar {
+        @include makeFluidColumn(3);
+    }
+    .ya-right-sidebar {
+        @include makeFluidColumn(3);
+    }
+}
+
+
+$margin_padding: 15px;
+.ya-reviews {
+    padding: $margin_padding * 2;
+	@media (max-width: 767px) {
+		padding: $margin_padding * 2 $margin_padding;
+	}
+
+}
+
+$icon_font_size: 30px;
+.ya-review-section {
+	margin-top: $margin_padding * 2;
+	.ya-review-list {
+		margin: 0;
+		list-style:none outside none;
+		.ya-review-item {
+			border-top: 1px solid #999;
+			display: inline-block;
+			width: 100%;
+			margin-bottom: $margin_padding;
+					
+			.ya-review-item-subject {
+				width: 100%;
+				display: inline-block;
+				background-color: #eee;
+				h2 {
+					@media (max-width: 460px) {
+						font-size: 25px;
+					}		
+				}
+				h3 {
+					@media (max-width: 460px) {
+						font-size: 16px;
+					}		
+				}
+				> * {
+					padding-left:8px;
+				}		
+			}
+			.ya-review-item-settings {
+				margin: $margin_padding 0 $margin_padding 5%;
+				.ya-review-item-settings-options {
+					@include makeFluidRow();
+					margin-bottom: $margin_padding;
+					.ya-option-items {
+						@include makeFluidColumn(4);
+					}
+					.ya-option-visible {
+						@include makeFluidColumn(4);
+					}
+					.ya-option-hidden {
+						@include makeFluidColumn(4);
+					}			
+				}	
+			}
+			.ya-review-number {
+				float: left;
+			    font-size: 19px;
+			    font-weight: bold;
+			    width: 5%;
+				margin-top: 12px;
+					@media (max-width: 460px) {
+						font-size: 16px;
+						margin-top: 9px;
+					}		
+			}				
+		}
+	}
+	
+}
+.ya-reivew-setting-footer {
+	width: 300px;
+	margin: 0 auto;
+}	
+.ya-reivew-setting-btn-list {
+	list-style: none outside none;
+	margin: 0;
+	li {
+		float: left;
+		margin: 0 13px;
+	}	
+}	
+
+input[type="radio"] {
+	margin: 0 5px;
+	-webkit-appearance: radio;
+	box-sizing: border-box;
+}
+	
+
+
