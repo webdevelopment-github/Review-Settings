@@ -1,0 +1,212 @@
+/* line 27, ../sass/review-settings.scss */
+
+.ya-article {
+    width: 100%;
+    *zoom: 1;
+}
+/* line 15, ../../../../../compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+
+.ya-article:before, .ya-article:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+/* line 22, ../../../../../compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+
+.ya-article:after { clear: both; }
+/* line 29, ../sass/review-settings.scss */
+
+.ya-article .ya-main-section {
+    float: left;
+    margin-left: 2.12766%;
+    width: 90%;
+}
+/* line 22, ../sass/review-settings.scss */
+
+.ya-article .ya-main-section:first-child { margin-left: 0; }
+
+@media (max-width: 979px) {
+    /* line 29, ../sass/review-settings.scss */
+    .ya-article .ya-main-section {
+        float: left;
+        margin-left: 2.12766%;
+        width: 74.4681%;
+    }
+  /* line 22, ../sass/review-settings.scss */
+
+    .ya-article .ya-main-section:first-child { margin-left: 0; }
+}
+
+@media (max-width: 767px) {
+    /* line 29, ../sass/review-settings.scss */
+    .ya-article .ya-main-section {
+        float: left;
+        margin-left: 0%;
+        width: 100.00002%;
+    }
+  /* line 22, ../sass/review-settings.scss */
+
+    .ya-article .ya-main-section:first-child { margin-left: 0; }
+}
+    /* line 38, ../sass/review-settings.scss */
+
+.ya-article .ya-left-sidebar {
+    float: left;
+    margin-left: 2.12766%;
+    width: 23.40426%;
+}
+/* line 22, ../sass/review-settings.scss */
+
+.ya-article .ya-left-sidebar:first-child { margin-left: 0; }
+/* line 41, ../sass/review-settings.scss */
+
+.ya-article .ya-right-sidebar {
+    float: left;
+    margin-left: 2.12766%;
+    width: 23.40426%;
+}
+/* line 22, ../sass/review-settings.scss */
+
+.ya-article .ya-right-sidebar:first-child { margin-left: 0; }
+
+/* line 48, ../sass/review-settings.scss */
+
+.ya-reviews { padding: 00px; }
+
+@media (max-width: 767px) {
+    /* line 48, ../sass/review-settings.scss */
+    .ya-reviews { padding: 30px 15px; }
+}
+
+    /* line 57, ../sass/review-settings.scss */
+
+.ya-review-section { margin-top: 0px; }
+/* line 59, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list {
+    list-style: none outside none;
+    margin: 0;
+}
+/* line 62, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list .ya-review-item {
+    border-top: 1px solid #999999;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+/* line 68, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-item-subject {
+    background-color: #eee;
+    display: inline-block;
+    width: 100%;
+}
+
+@media (max-width: 460px) {
+    /* line 72, ../sass/review-settings.scss */
+    .ya-review-section .ya-review-list .ya-review-item .ya-review-item-subject h2 { font-size: 25px; }
+}
+
+@media (max-width: 460px) {
+    /* line 77, ../sass/review-settings.scss */
+    .ya-review-section .ya-review-list .ya-review-item .ya-review-item-subject h3 { font-size: 16px; }
+}
+    /* line 82, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-item-subject > * { padding-left: 8px; }
+/* line 86, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-item-settings { margin: 15px 0 15px 5%; }
+/* line 88, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-item-settings .ya-review-item-settings-options {
+    margin-bottom: 15px;
+    width: 100%;
+    *zoom: 1;
+}
+/* line 15, ../../../../../compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-item-settings .ya-review-item-settings-options:before, .ya-review-section .ya-review-list .ya-review-item .ya-review-item-settings .ya-review-item-settings-options:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+/* line 22, ../../../../../compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-item-settings .ya-review-item-settings-options:after { clear: both; }
+/* line 91, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-item-settings .ya-review-item-settings-options .ya-option-items {
+    float: left;
+    margin-left: 2.12766%;
+    width: 31.9149%;
+}
+/* line 22, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-item-settings .ya-review-item-settings-options .ya-option-items:first-child { margin-left: 0; }
+/* line 94, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-item-settings .ya-review-item-settings-options .ya-option-visible {
+    float: left;
+    margin-left: 2.12766%;
+    width: 31.9149%;
+}
+/* line 22, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-item-settings .ya-review-item-settings-options .ya-option-visible:first-child { margin-left: 0; }
+/* line 97, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-item-settings .ya-review-item-settings-options .ya-option-hidden {
+    float: left;
+    margin-left: 2.12766%;
+    width: 31.9149%;
+}
+/* line 22, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-item-settings .ya-review-item-settings-options .ya-option-hidden:first-child { margin-left: 0; }
+/* line 102, ../sass/review-settings.scss */
+
+.ya-review-section .ya-review-list .ya-review-item .ya-review-number {
+    float: left;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 12px;
+    width: 5%;
+}
+
+@media (max-width: 460px) {
+    /* line 102, ../sass/review-settings.scss */
+    .ya-review-section .ya-review-list .ya-review-item .ya-review-number {
+        font-size: 16px;
+        margin-top: 9px;
+    }
+}
+
+    /* line 117, ../sass/review-settings.scss */
+
+.ya-reivew-setting-footer {
+    margin: 0 auto;
+    width: 300px;
+}
+
+/* line 121, ../sass/review-settings.scss */
+
+.ya-reivew-setting-btn-list {
+    list-style: none outside none;
+    margin: 0;
+}
+/* line 124, ../sass/review-settings.scss */
+
+.ya-reivew-setting-btn-list li {
+    float: left;
+    margin: 0 13px;
+}
+
+/* line 130, ../sass/review-settings.scss */
+
+input[type="radio"] {
+    -webkit-appearance: radio;
+    box-sizing: border-box;
+    margin: 0 5px;
+}
